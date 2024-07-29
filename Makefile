@@ -3,3 +3,6 @@ install:
 
 test:
 	./bin/uber_test.sh
+
+dna_count:
+	./dna.py 'ATTCGCCC'

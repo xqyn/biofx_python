@@ -5,3 +5,6 @@ test:
 
 all:
 	../bin/all_test.py dna.py
+
+dna_count:
+	./dna.py 'ATTGCCCGA'

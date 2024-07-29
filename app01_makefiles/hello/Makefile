@@ -1,4 +1,4 @@
-.PHONY: hello
+#.PHONY: hello
 
 hello:
 	echo "Hello, World!"

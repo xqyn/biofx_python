@@ -14,14 +14,12 @@ TEST3 = ('./tests/inputs/input3.txt', '196 231 237 246')
 # --------------------------------------------------
 def test_exists() -> None:
     """ Program exists """
-
     assert os.path.exists(PRG)
 
 
 # --------------------------------------------------
 def test_usage() -> None:
     """ Prints usage """
-
     for arg in ['-h', '--help']:
         rv, out = getstatusoutput(f'{RUN} {arg}')
         assert rv == 0
